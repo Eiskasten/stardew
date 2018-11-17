@@ -69,32 +69,6 @@
       <questTitle>Auf zum Grund?</questTitle>
     </Quest>
     <Quest xsi:type="ItemDeliveryQuest">
-      <_currentObjective>Bringe Pam ein helles Bier.</_currentObjective>
-      <_questDescription>Pam dürstet es nach hellem Bier. Reguläres Bier wird nicht reichen. Du kannst es selbst brauen, wenn du Hopfen und ein Fass zum Brauen hast.</_questDescription>
-      <_questTitle>Pam ist durstig</_questTitle>
-      <rewardDescription>-1</rewardDescription>
-      <accepted>false</accepted>
-      <completed>false</completed>
-      <dailyQuest>false</dailyQuest>
-      <showNew>false</showNew>
-      <canBeCancelled>true</canBeCancelled>
-      <destroy>false</destroy>
-      <id>103</id>
-      <moneyReward>350</moneyReward>
-      <questType>3</questType>
-      <daysLeft>0</daysLeft>
-      <nextQuests>
-        <int>-1</int>
-      </nextQuests>
-      <questTitle>Pam ist durstig</questTitle>
-      <targetMessage>Her damit. *schlürf* Ahh, so muss es sein.#$b#Ziemlich gut und hopfig... Mit einem Hauch von Zitrone, aber einem robusten Hauptteil, der es festigt.#$b#Danke, mein Kind. Das bedeutet mir viel. Ich wusste, ich kann mich auf dich verlassen.$h</targetMessage>
-      <target>Pam</target>
-      <item>303</item>
-      <number>1</number>
-      <parts/>
-      <dialogueparts/>
-    </Quest>
-    <Quest xsi:type="ItemDeliveryQuest">
       <_currentObjective>Bringe George eine Peperoni.</_currentObjective>
       <_questDescription>George braucht eine scharfe Peperoni, um die Schmerzen in seinem Knie zu lindern.</_questDescription>
       <_questTitle>Knietherapie</_questTitle>
@@ -124,14 +98,16 @@
   <professions>
     <int>0</int>
     <int>6</int>
+    <int>19</int>
+    <int>24</int>
   </professions>
   <newLevels/>
   <experiencePoints>
-    <int>8445</int>
+    <int>8741</int>
     <int>3008</int>
-    <int>2009</int>
-    <int>1930</int>
-    <int>2026</int>
+    <int>2023</int>
+    <int>2529</int>
+    <int>2243</int>
     <int>0</int>
   </experiencePoints>
   <items>
@@ -179,7 +155,7 @@
       <Name>Steel Pickaxe</Name>
       <Stack>1</Stack>
       <initialParentTileIndex>119</initialParentTileIndex>
-      <currentParentTileIndex>122</currentParentTileIndex>
+      <currentParentTileIndex>119</currentParentTileIndex>
       <indexOfMenuItemView>145</indexOfMenuItemView>
       <stackable>false</stackable>
       <instantUse>false</instantUse>
@@ -276,65 +252,7 @@
       <InstantUse>false</InstantUse>
       <Stackable>false</Stackable>
     </Item>
-    <Item xsi:type="Object">
-      <category>-80</category>
-      <name>Sweet Pea</name>
-      <parentSheetIndex>402</parentSheetIndex>
-      <specialItem>false</specialItem>
-      <hasBeenInInventory>true</hasBeenInInventory>
-      <SpecialVariable>0</SpecialVariable>
-      <DisplayName>Edelwicke</DisplayName>
-      <Name>Sweet Pea</Name>
-      <Stack>1</Stack>
-      <tileLocation>
-        <X>21</X>
-        <Y>15</Y>
-      </tileLocation>
-      <owner>0</owner>
-      <type>Basic</type>
-      <canBeSetDown>true</canBeSetDown>
-      <canBeGrabbed>true</canBeGrabbed>
-      <isHoedirt>false</isHoedirt>
-      <isSpawnedObject>true</isSpawnedObject>
-      <questItem>false</questItem>
-      <questId>0</questId>
-      <isOn>true</isOn>
-      <fragility>0</fragility>
-      <price>50</price>
-      <edibility>0</edibility>
-      <stack>1</stack>
-      <quality>2</quality>
-      <bigCraftable>false</bigCraftable>
-      <setOutdoors>false</setOutdoors>
-      <setIndoors>false</setIndoors>
-      <readyForHarvest>false</readyForHarvest>
-      <showNextIndex>false</showNextIndex>
-      <flipped>false</flipped>
-      <hasBeenPickedUpByFarmer>true</hasBeenPickedUpByFarmer>
-      <isRecipe>false</isRecipe>
-      <isLamp>false</isLamp>
-      <minutesUntilReady>0</minutesUntilReady>
-      <boundingBox>
-        <X>1344</X>
-        <Y>960</Y>
-        <Width>64</Width>
-        <Height>64</Height>
-        <Location>
-          <X>1344</X>
-          <Y>960</Y>
-        </Location>
-        <Size>
-          <X>64</X>
-          <Y>64</Y>
-        </Size>
-      </boundingBox>
-      <scale>
-        <X>0</X>
-        <Y>0</Y>
-      </scale>
-      <uses>0</uses>
-      <preservedParentSheetIndex>0</preservedParentSheetIndex>
-    </Item>
+    <Item xsi:nil="true"/>
     <Item xsi:type="Axe">
       <category>-99</category>
       <name>Axe</name>
@@ -359,15 +277,15 @@
       <Stackable>false</Stackable>
     </Item>
     <Item xsi:type="Object">
-      <category>-16</category>
-      <name>Wood</name>
-      <parentSheetIndex>388</parentSheetIndex>
+      <category>-79</category>
+      <name>Blueberry</name>
+      <parentSheetIndex>258</parentSheetIndex>
       <specialItem>false</specialItem>
       <hasBeenInInventory>true</hasBeenInInventory>
       <SpecialVariable>0</SpecialVariable>
-      <DisplayName>Holz</DisplayName>
-      <Name>Wood</Name>
-      <Stack>13</Stack>
+      <DisplayName>Blaubeere</DisplayName>
+      <Name>Blueberry</Name>
+      <Stack>1</Stack>
       <tileLocation>
         <X>0</X>
         <Y>0</Y>
@@ -382,16 +300,16 @@
       <questId>0</questId>
       <isOn>true</isOn>
       <fragility>0</fragility>
-      <price>2</price>
-      <edibility>-300</edibility>
-      <stack>13</stack>
+      <price>50</price>
+      <edibility>10</edibility>
+      <stack>1</stack>
       <quality>0</quality>
       <bigCraftable>false</bigCraftable>
       <setOutdoors>false</setOutdoors>
       <setIndoors>false</setIndoors>
       <readyForHarvest>false</readyForHarvest>
       <showNextIndex>false</showNextIndex>
-      <flipped>false</flipped>
+      <flipped>true</flipped>
       <hasBeenPickedUpByFarmer>true</hasBeenPickedUpByFarmer>
       <isRecipe>false</isRecipe>
       <isLamp>false</isLamp>
@@ -440,9 +358,8 @@
       <InstantUse>false</InstantUse>
       <Stackable>false</Stackable>
       <waterCanMax>40</waterCanMax>
-      <WaterLeft>38</WaterLeft>
+      <WaterLeft>29</WaterLeft>
     </Item>
-    <Item xsi:nil="true"/>
     <Item xsi:type="Object">
       <category>-80</category>
       <name>Sweet Pea</name>
@@ -454,8 +371,8 @@
       <Name>Sweet Pea</Name>
       <Stack>1</Stack>
       <tileLocation>
-        <X>42</X>
-        <Y>15</Y>
+        <X>79</X>
+        <Y>26</Y>
       </tileLocation>
       <owner>0</owner>
       <type>Basic</type>
@@ -470,6 +387,65 @@
       <price>50</price>
       <edibility>0</edibility>
       <stack>1</stack>
+      <quality>2</quality>
+      <bigCraftable>false</bigCraftable>
+      <setOutdoors>false</setOutdoors>
+      <setIndoors>false</setIndoors>
+      <readyForHarvest>false</readyForHarvest>
+      <showNextIndex>false</showNextIndex>
+      <flipped>false</flipped>
+      <hasBeenPickedUpByFarmer>true</hasBeenPickedUpByFarmer>
+      <isRecipe>false</isRecipe>
+      <isLamp>false</isLamp>
+      <minutesUntilReady>0</minutesUntilReady>
+      <boundingBox>
+        <X>5056</X>
+        <Y>1664</Y>
+        <Width>64</Width>
+        <Height>64</Height>
+        <Location>
+          <X>5056</X>
+          <Y>1664</Y>
+        </Location>
+        <Size>
+          <X>64</X>
+          <Y>64</Y>
+        </Size>
+      </boundingBox>
+      <scale>
+        <X>0</X>
+        <Y>0</Y>
+      </scale>
+      <uses>0</uses>
+      <preservedParentSheetIndex>0</preservedParentSheetIndex>
+    </Item>
+    <Item xsi:type="Object">
+      <category>-2</category>
+      <name>Quartz</name>
+      <parentSheetIndex>80</parentSheetIndex>
+      <specialItem>false</specialItem>
+      <hasBeenInInventory>true</hasBeenInInventory>
+      <SpecialVariable>0</SpecialVariable>
+      <DisplayName>Quarz</DisplayName>
+      <Name>Quartz</Name>
+      <Stack>1</Stack>
+      <tileLocation>
+        <X>0</X>
+        <Y>0</Y>
+      </tileLocation>
+      <owner>0</owner>
+      <type>Minerals</type>
+      <canBeSetDown>true</canBeSetDown>
+      <canBeGrabbed>true</canBeGrabbed>
+      <isHoedirt>false</isHoedirt>
+      <isSpawnedObject>true</isSpawnedObject>
+      <questItem>false</questItem>
+      <questId>0</questId>
+      <isOn>true</isOn>
+      <fragility>0</fragility>
+      <price>25</price>
+      <edibility>-300</edibility>
+      <stack>1</stack>
       <quality>0</quality>
       <bigCraftable>false</bigCraftable>
       <setOutdoors>false</setOutdoors>
@@ -482,13 +458,13 @@
       <isLamp>false</isLamp>
       <minutesUntilReady>0</minutesUntilReady>
       <boundingBox>
-        <X>2688</X>
-        <Y>960</Y>
+        <X>0</X>
+        <Y>0</Y>
         <Width>64</Width>
         <Height>64</Height>
         <Location>
-          <X>2688</X>
-          <Y>960</Y>
+          <X>0</X>
+          <Y>0</Y>
         </Location>
         <Size>
           <X>64</X>
@@ -504,14 +480,14 @@
     </Item>
     <Item xsi:nil="true"/>
     <Item xsi:type="Object">
-      <category>-81</category>
-      <name>Sap</name>
-      <parentSheetIndex>92</parentSheetIndex>
+      <category>-26</category>
+      <name>Pale Ale</name>
+      <parentSheetIndex>303</parentSheetIndex>
       <specialItem>false</specialItem>
       <hasBeenInInventory>true</hasBeenInInventory>
       <SpecialVariable>0</SpecialVariable>
-      <DisplayName>Harz</DisplayName>
-      <Name>Sap</Name>
+      <DisplayName>Helles Bier</DisplayName>
+      <Name>Pale Ale</Name>
       <Stack>3</Stack>
       <tileLocation>
         <X>0</X>
@@ -519,7 +495,7 @@
       </tileLocation>
       <owner>0</owner>
       <type>Basic</type>
-      <canBeSetDown>true</canBeSetDown>
+      <canBeSetDown>false</canBeSetDown>
       <canBeGrabbed>true</canBeGrabbed>
       <isHoedirt>false</isHoedirt>
       <isSpawnedObject>false</isSpawnedObject>
@@ -527,8 +503,8 @@
       <questId>0</questId>
       <isOn>true</isOn>
       <fragility>0</fragility>
-      <price>2</price>
-      <edibility>-1</edibility>
+      <price>300</price>
+      <edibility>20</edibility>
       <stack>3</stack>
       <quality>0</quality>
       <bigCraftable>false</bigCraftable>
@@ -536,7 +512,7 @@
       <setIndoors>false</setIndoors>
       <readyForHarvest>false</readyForHarvest>
       <showNextIndex>false</showNextIndex>
-      <flipped>false</flipped>
+      <flipped>true</flipped>
       <hasBeenPickedUpByFarmer>true</hasBeenPickedUpByFarmer>
       <isRecipe>false</isRecipe>
       <isLamp>false</isLamp>
@@ -586,22 +562,22 @@
       <Stackable>false</Stackable>
     </Item>
     <Item xsi:type="Object">
-      <category>-26</category>
-      <name>Pale Ale</name>
-      <parentSheetIndex>303</parentSheetIndex>
+      <category>-2</category>
+      <name>Diamond</name>
+      <parentSheetIndex>72</parentSheetIndex>
       <specialItem>false</specialItem>
       <hasBeenInInventory>true</hasBeenInInventory>
       <SpecialVariable>0</SpecialVariable>
-      <DisplayName>Helles Bier</DisplayName>
-      <Name>Pale Ale</Name>
-      <Stack>1</Stack>
+      <DisplayName>Diamant</DisplayName>
+      <Name>Diamond</Name>
+      <Stack>2</Stack>
       <tileLocation>
         <X>0</X>
         <Y>0</Y>
       </tileLocation>
       <owner>0</owner>
-      <type>Basic</type>
-      <canBeSetDown>false</canBeSetDown>
+      <type>Minerals</type>
+      <canBeSetDown>true</canBeSetDown>
       <canBeGrabbed>true</canBeGrabbed>
       <isHoedirt>false</isHoedirt>
       <isSpawnedObject>false</isSpawnedObject>
@@ -609,16 +585,16 @@
       <questId>0</questId>
       <isOn>true</isOn>
       <fragility>0</fragility>
-      <price>300</price>
-      <edibility>20</edibility>
-      <stack>1</stack>
+      <price>750</price>
+      <edibility>-300</edibility>
+      <stack>2</stack>
       <quality>0</quality>
       <bigCraftable>false</bigCraftable>
       <setOutdoors>false</setOutdoors>
       <setIndoors>false</setIndoors>
       <readyForHarvest>false</readyForHarvest>
       <showNextIndex>false</showNextIndex>
-      <flipped>false</flipped>
+      <flipped>true</flipped>
       <hasBeenPickedUpByFarmer>true</hasBeenPickedUpByFarmer>
       <isRecipe>false</isRecipe>
       <isLamp>false</isLamp>
@@ -645,7 +621,21 @@
       <preservedParentSheetIndex>0</preservedParentSheetIndex>
     </Item>
     <Item xsi:nil="true"/>
-    <Item xsi:nil="true"/>
+    <Item xsi:type="Boots">
+      <category>-97</category>
+      <name>Leather Boots</name>
+      <specialItem>false</specialItem>
+      <hasBeenInInventory>false</hasBeenInInventory>
+      <SpecialVariable>0</SpecialVariable>
+      <DisplayName>Lederschuhe</DisplayName>
+      <Name>Leather Boots</Name>
+      <Stack>1</Stack>
+      <defenseBonus>1</defenseBonus>
+      <immunityBonus>1</immunityBonus>
+      <indexInTileSheet>506</indexInTileSheet>
+      <price>50</price>
+      <indexInColorSheet>2</indexInColorSheet>
+    </Item>
     <Item xsi:nil="true"/>
     <Item xsi:nil="true"/>
     <Item xsi:nil="true"/>
@@ -685,65 +675,7 @@
       <isOnSpecial>false</isOnSpecial>
     </Item>
     <Item xsi:nil="true"/>
-    <Item xsi:type="Object">
-      <category>-16</category>
-      <name>Stone</name>
-      <parentSheetIndex>390</parentSheetIndex>
-      <specialItem>false</specialItem>
-      <hasBeenInInventory>true</hasBeenInInventory>
-      <SpecialVariable>0</SpecialVariable>
-      <DisplayName>Stein</DisplayName>
-      <Name>Stone</Name>
-      <Stack>15</Stack>
-      <tileLocation>
-        <X>0</X>
-        <Y>0</Y>
-      </tileLocation>
-      <owner>0</owner>
-      <type>Basic</type>
-      <canBeSetDown>true</canBeSetDown>
-      <canBeGrabbed>true</canBeGrabbed>
-      <isHoedirt>false</isHoedirt>
-      <isSpawnedObject>false</isSpawnedObject>
-      <questItem>false</questItem>
-      <questId>0</questId>
-      <isOn>true</isOn>
-      <fragility>0</fragility>
-      <price>2</price>
-      <edibility>-300</edibility>
-      <stack>15</stack>
-      <quality>0</quality>
-      <bigCraftable>false</bigCraftable>
-      <setOutdoors>false</setOutdoors>
-      <setIndoors>false</setIndoors>
-      <readyForHarvest>false</readyForHarvest>
-      <showNextIndex>false</showNextIndex>
-      <flipped>false</flipped>
-      <hasBeenPickedUpByFarmer>true</hasBeenPickedUpByFarmer>
-      <isRecipe>false</isRecipe>
-      <isLamp>false</isLamp>
-      <minutesUntilReady>1</minutesUntilReady>
-      <boundingBox>
-        <X>0</X>
-        <Y>0</Y>
-        <Width>64</Width>
-        <Height>64</Height>
-        <Location>
-          <X>0</X>
-          <Y>0</Y>
-        </Location>
-        <Size>
-          <X>64</X>
-          <Y>64</Y>
-        </Size>
-      </boundingBox>
-      <scale>
-        <X>0</X>
-        <Y>0</Y>
-      </scale>
-      <uses>0</uses>
-      <preservedParentSheetIndex>0</preservedParentSheetIndex>
-    </Item>
+    <Item xsi:nil="true"/>
     <Item xsi:nil="true"/>
     <Item xsi:nil="true"/>
   </items>
@@ -763,6 +695,7 @@
     <int>15933</int>
     <int>213</int>
     <int>28376</int>
+    <int>847951</int>
   </dialogueQuestionsAnswered>
   <furnitureOwned/>
   <cookingRecipes>
@@ -910,59 +843,27 @@
         <int>0</int>
       </value>
     </item>
+    <item>
+      <key>
+        <string>Bread</string>
+      </key>
+      <value>
+        <int>0</int>
+      </value>
+    </item>
   </cookingRecipes>
   <craftingRecipes>
     <item>
       <key>
-        <string>Stone Sign</string>
+        <string>Chest</string>
       </key>
       <value>
-        <int>0</int>
+        <int>3</int>
       </value>
     </item>
     <item>
       <key>
-        <string>Wood Sign</string>
-      </key>
-      <value>
-        <int>0</int>
-      </value>
-    </item>
-    <item>
-      <key>
-        <string>Gravel Path</string>
-      </key>
-      <value>
-        <int>0</int>
-      </value>
-    </item>
-    <item>
-      <key>
-        <string>Cobblestone Path</string>
-      </key>
-      <value>
-        <int>0</int>
-      </value>
-    </item>
-    <item>
-      <key>
-        <string>Wood Path</string>
-      </key>
-      <value>
-        <int>20</int>
-      </value>
-    </item>
-    <item>
-      <key>
-        <string>Campfire</string>
-      </key>
-      <value>
-        <int>0</int>
-      </value>
-    </item>
-    <item>
-      <key>
-        <string>Torch</string>
+        <string>Wood Fence</string>
       </key>
       <value>
         <int>0</int>
@@ -978,7 +879,7 @@
     </item>
     <item>
       <key>
-        <string>Wood Fence</string>
+        <string>Torch</string>
       </key>
       <value>
         <int>0</int>
@@ -986,10 +887,50 @@
     </item>
     <item>
       <key>
-        <string>Chest</string>
+        <string>Campfire</string>
       </key>
       <value>
-        <int>3</int>
+        <int>0</int>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Wood Path</string>
+      </key>
+      <value>
+        <int>20</int>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Cobblestone Path</string>
+      </key>
+      <value>
+        <int>0</int>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Gravel Path</string>
+      </key>
+      <value>
+        <int>0</int>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Wood Sign</string>
+      </key>
+      <value>
+        <int>0</int>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>Stone Sign</string>
+      </key>
+      <value>
+        <int>0</int>
       </value>
     </item>
     <item>
@@ -1299,6 +1240,7 @@
     <int>3910674</int>
     <int>40</int>
     <int>831125</int>
+    <int>4</int>
   </eventsSeen>
   <secretNotesSeen/>
   <songsHeard>
@@ -1350,6 +1292,9 @@
     <string>EmilyDance</string>
     <string>sweet</string>
     <string>sadpiano</string>
+    <string>Lava_Ambient</string>
+    <string>Of Dwarves</string>
+    <string>moonlightJellies</string>
   </songsHeard>
   <achievements>
     <int>24</int>
@@ -1462,14 +1407,15 @@
     <string>doorUnlockPenny</string>
     <string>doorUnlockMarnie</string>
     <string>quest10</string>
+    <string>summer_28</string>
   </mailReceived>
   <mailForTomorrow/>
   <mailbox>
-    <string>summer_28</string>
+    <string>Bouquet</string>
   </mailbox>
   <stats>
     <seedsSown>320</seedsSown>
-    <itemsShipped>903</itemsShipped>
+    <itemsShipped>913</itemsShipped>
     <itemsCooked>0</itemsCooked>
     <itemsCrafted>0</itemsCrafted>
     <chickenEggsLayed>0</chickenEggsLayed>
@@ -1481,44 +1427,44 @@
     <cheeseMade>0</cheeseMade>
     <goatCheeseMade>0</goatCheeseMade>
     <trufflesFound>0</trufflesFound>
-    <stoneGathered>553</stoneGathered>
-    <rocksCrushed>848</rocksCrushed>
+    <stoneGathered>575</stoneGathered>
+    <rocksCrushed>931</rocksCrushed>
     <dirtHoed>534</dirtHoed>
-    <giftsGiven>68</giftsGiven>
+    <giftsGiven>76</giftsGiven>
     <timesUnconscious>0</timesUnconscious>
-    <averageBedtime>2159</averageBedtime>
+    <averageBedtime>2163</averageBedtime>
     <timesFished>229</timesFished>
     <fishCaught>151</fishCaught>
     <bouldersCracked>1</bouldersCracked>
     <stumpsChopped>0</stumpsChopped>
-    <stepsTaken>89004</stepsTaken>
-    <monstersKilled>432</monstersKilled>
+    <stepsTaken>91239</stepsTaken>
+    <monstersKilled>461</monstersKilled>
     <diamondsFound>0</diamondsFound>
     <prismaticShardsFound>0</prismaticShardsFound>
     <otherPreciousGemsFound>0</otherPreciousGemsFound>
     <caveCarrotsFound>0</caveCarrotsFound>
-    <copperFound>347</copperFound>
-    <ironFound>172</ironFound>
+    <copperFound>357</copperFound>
+    <ironFound>199</ironFound>
     <coalFound>0</coalFound>
     <coinsFound>0</coinsFound>
-    <goldFound>2</goldFound>
+    <goldFound>10</goldFound>
     <iridiumFound>0</iridiumFound>
     <barsSmelted>0</barsSmelted>
-    <beveragesMade>3</beveragesMade>
+    <beveragesMade>6</beveragesMade>
     <preservesMade>20</preservesMade>
     <piecesOfTrashRecycled>0</piecesOfTrashRecycled>
     <mysticStonesCrushed>0</mysticStonesCrushed>
-    <daysPlayed>56</daysPlayed>
+    <daysPlayed>57</daysPlayed>
     <weedsEliminated>0</weedsEliminated>
     <sticksChopped>0</sticksChopped>
     <notesFound>10</notesFound>
     <questsCompleted>11</questsCompleted>
     <starLevelCropsShipped>0</starLevelCropsShipped>
-    <cropsShipped>677</cropsShipped>
-    <itemsForaged>298</itemsForaged>
-    <slimesKilled>119</slimesKilled>
+    <cropsShipped>687</cropsShipped>
+    <itemsForaged>305</itemsForaged>
+    <slimesKilled>122</slimesKilled>
     <geodesCracked>20</geodesCracked>
-    <goodFriends>0</goodFriends>
+    <goodFriends>1</goodFriends>
     <specificMonstersKilled>
       <item>
         <key>
@@ -1589,7 +1535,7 @@
           <string>Frost Jelly</string>
         </key>
         <value>
-          <int>64</int>
+          <int>67</int>
         </value>
       </item>
       <item>
@@ -1597,7 +1543,7 @@
           <string>Frost Bat</string>
         </key>
         <value>
-          <int>90</int>
+          <int>94</int>
         </value>
       </item>
       <item>
@@ -1605,7 +1551,7 @@
           <string>Dust Spirit</string>
         </key>
         <value>
-          <int>100</int>
+          <int>102</int>
         </value>
       </item>
       <item>
@@ -1621,50 +1567,58 @@
           <string>Skeleton</string>
         </key>
         <value>
-          <int>3</int>
+          <int>22</int>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>Shadow Brute</string>
+        </key>
+        <value>
+          <int>1</int>
         </value>
       </item>
     </specificMonstersKilled>
-    <GoodFriends>0</GoodFriends>
-    <CropsShipped>677</CropsShipped>
-    <ItemsForaged>298</ItemsForaged>
+    <GoodFriends>1</GoodFriends>
+    <CropsShipped>687</CropsShipped>
+    <ItemsForaged>305</ItemsForaged>
     <GeodesCracked>20</GeodesCracked>
-    <SlimesKilled>119</SlimesKilled>
+    <SlimesKilled>122</SlimesKilled>
     <StarLevelCropsShipped>0</StarLevelCropsShipped>
-    <StoneGathered>553</StoneGathered>
+    <StoneGathered>575</StoneGathered>
     <QuestsCompleted>11</QuestsCompleted>
     <FishCaught>151</FishCaught>
     <NotesFound>10</NotesFound>
     <SticksChopped>0</SticksChopped>
     <WeedsEliminated>0</WeedsEliminated>
-    <DaysPlayed>56</DaysPlayed>
+    <DaysPlayed>57</DaysPlayed>
     <BouldersCracked>1</BouldersCracked>
     <MysticStonesCrushed>0</MysticStonesCrushed>
     <GoatCheeseMade>0</GoatCheeseMade>
     <CheeseMade>0</CheeseMade>
     <PiecesOfTrashRecycled>0</PiecesOfTrashRecycled>
     <PreservesMade>20</PreservesMade>
-    <BeveragesMade>3</BeveragesMade>
+    <BeveragesMade>6</BeveragesMade>
     <BarsSmelted>0</BarsSmelted>
     <IridiumFound>0</IridiumFound>
-    <GoldFound>2</GoldFound>
+    <GoldFound>10</GoldFound>
     <CoinsFound>0</CoinsFound>
     <CoalFound>0</CoalFound>
-    <IronFound>172</IronFound>
-    <CopperFound>347</CopperFound>
+    <IronFound>199</IronFound>
+    <CopperFound>357</CopperFound>
     <CaveCarrotsFound>0</CaveCarrotsFound>
     <OtherPreciousGemsFound>0</OtherPreciousGemsFound>
     <PrismaticShardsFound>0</PrismaticShardsFound>
     <DiamondsFound>0</DiamondsFound>
-    <MonstersKilled>432</MonstersKilled>
-    <StepsTaken>89004</StepsTaken>
+    <MonstersKilled>461</MonstersKilled>
+    <StepsTaken>91239</StepsTaken>
     <StumpsChopped>0</StumpsChopped>
     <TimesFished>229</TimesFished>
-    <AverageBedtime>2159</AverageBedtime>
+    <AverageBedtime>2163</AverageBedtime>
     <TimesUnconscious>0</TimesUnconscious>
-    <GiftsGiven>68</GiftsGiven>
+    <GiftsGiven>76</GiftsGiven>
     <DirtHoed>534</DirtHoed>
-    <RocksCrushed>848</RocksCrushed>
+    <RocksCrushed>931</RocksCrushed>
     <TrufflesFound>0</TrufflesFound>
     <SheepWoolProduced>0</SheepWoolProduced>
     <RabbitWoolProduced>0</RabbitWoolProduced>
@@ -1674,7 +1628,7 @@
     <ItemsCrafted>0</ItemsCrafted>
     <ChickenEggsLayed>0</ChickenEggsLayed>
     <ItemsCooked>0</ItemsCooked>
-    <ItemsShipped>903</ItemsShipped>
+    <ItemsShipped>913</ItemsShipped>
     <SeedsSown>320</SeedsSown>
   </stats>
   <blueprints/>
@@ -1749,13 +1703,13 @@
   <defaultChatColor>jade</defaultChatColor>
   <catPerson>true</catPerson>
   <mostRecentBed>
-    <X>1381.9624</X>
-    <Y>256.2549</Y>
+    <X>1384.61987</X>
+    <Y>273.151825</Y>
   </mostRecentBed>
   <shirt>57</shirt>
   <hair>4</hair>
   <skin>0</skin>
-  <shoes>2</shoes>
+  <shoes>8</shoes>
   <accessory>-1</accessory>
   <facialHair>-1</facialHair>
   <hairstyleColor>
@@ -1794,18 +1748,18 @@
   </hat>
   <boots>
     <category>-97</category>
-    <name>Leather Boots</name>
+    <name>Firewalker Boots</name>
     <specialItem>false</specialItem>
-    <hasBeenInInventory>false</hasBeenInInventory>
+    <hasBeenInInventory>true</hasBeenInInventory>
     <SpecialVariable>0</SpecialVariable>
-    <DisplayName>Lederschuhe</DisplayName>
-    <Name>Leather Boots</Name>
+    <DisplayName>Feuerwandlerstiefel</DisplayName>
+    <Name>Firewalker Boots</Name>
     <Stack>1</Stack>
-    <defenseBonus>1</defenseBonus>
-    <immunityBonus>1</immunityBonus>
-    <indexInTileSheet>506</indexInTileSheet>
-    <price>50</price>
-    <indexInColorSheet>2</indexInColorSheet>
+    <defenseBonus>3</defenseBonus>
+    <immunityBonus>3</immunityBonus>
+    <indexInTileSheet>512</indexInTileSheet>
+    <price>250</price>
+    <indexInColorSheet>8</indexInColorSheet>
   </boots>
   <leftRing>
     <category>-96</category>
@@ -1847,8 +1801,8 @@
   <caveChoice>2</caveChoice>
   <feed>0</feed>
   <farmingLevel>8</farmingLevel>
-  <miningLevel>4</miningLevel>
-  <combatLevel>4</combatLevel>
+  <miningLevel>5</miningLevel>
+  <combatLevel>5</combatLevel>
   <foragingLevel>4</foragingLevel>
   <fishingLevel>5</fishingLevel>
   <luckLevel>0</luckLevel>
@@ -1861,9 +1815,9 @@
   <addedLuckLevel>0</addedLuckLevel>
   <maxStamina>270</maxStamina>
   <maxItems>24</maxItems>
-  <resilience>1</resilience>
+  <resilience>3</resilience>
   <attack>0</attack>
-  <immunity>1</immunity>
+  <immunity>3</immunity>
   <attackIncreaseModifier>0</attackIncreaseModifier>
   <knockbackModifier>0</knockbackModifier>
   <weaponSpeedModifier>0</weaponSpeedModifier>
@@ -1886,7 +1840,7 @@
   <magneticRadius>256</magneticRadius>
   <temporaryInvincibilityTimer>0</temporaryInvincibilityTimer>
   <health>120</health>
-  <maxHealth>120</maxHealth>
+  <maxHealth>135</maxHealth>
   <difficultyModifier>1</difficultyModifier>
   <isMale>true</isMale>
   <hasBusTicket>false</hasBusTicket>
@@ -2251,7 +2205,7 @@
         <int>304</int>
       </key>
       <value>
-        <int>124</int>
+        <int>125</int>
       </value>
     </item>
     <item>
@@ -2259,7 +2213,7 @@
         <int>256</int>
       </key>
       <value>
-        <int>58</int>
+        <int>66</int>
       </value>
     </item>
     <item>
@@ -2267,7 +2221,7 @@
         <int>258</int>
       </key>
       <value>
-        <int>59</int>
+        <int>60</int>
       </value>
     </item>
     <item>
@@ -2389,7 +2343,7 @@
         <int>66</int>
       </key>
       <value>
-        <int>21</int>
+        <int>22</int>
       </value>
     </item>
     <item>
@@ -2405,7 +2359,7 @@
         <int>80</int>
       </key>
       <value>
-        <int>30</int>
+        <int>37</int>
       </value>
     </item>
     <item>
@@ -2453,7 +2407,7 @@
         <int>68</int>
       </key>
       <value>
-        <int>12</int>
+        <int>13</int>
       </value>
     </item>
     <item>
@@ -2486,6 +2440,14 @@
       </key>
       <value>
         <int>4</int>
+      </value>
+    </item>
+    <item>
+      <key>
+        <int>72</int>
+      </key>
+      <value>
+        <int>2</int>
       </value>
     </item>
   </mineralsFound>
@@ -2864,7 +2826,7 @@
       </key>
       <value>
         <Friendship>
-          <Points>736</Points>
+          <Points>734</Points>
           <GiftsThisWeek>0</GiftsThisWeek>
           <GiftsToday>0</GiftsToday>
           <LastGiftDate>
@@ -2886,14 +2848,14 @@
       </key>
       <value>
         <Friendship>
-          <Points>1033</Points>
-          <GiftsThisWeek>0</GiftsThisWeek>
+          <Points>1098</Points>
+          <GiftsThisWeek>1</GiftsThisWeek>
           <GiftsToday>0</GiftsToday>
           <LastGiftDate>
             <Year>1</Year>
-            <DayOfMonth>25</DayOfMonth>
+            <DayOfMonth>28</DayOfMonth>
             <Season>summer</Season>
-            <TotalDays>52</TotalDays>
+            <TotalDays>55</TotalDays>
           </LastGiftDate>
           <TalkedToToday>false</TalkedToToday>
           <ProposalRejected>false</ProposalRejected>
@@ -2908,7 +2870,7 @@
       </key>
       <value>
         <Friendship>
-          <Points>528</Points>
+          <Points>526</Points>
           <GiftsThisWeek>0</GiftsThisWeek>
           <GiftsToday>0</GiftsToday>
           <LastGiftDate>
@@ -2930,7 +2892,7 @@
       </key>
       <value>
         <Friendship>
-          <Points>688</Points>
+          <Points>686</Points>
           <GiftsThisWeek>0</GiftsThisWeek>
           <GiftsToday>0</GiftsToday>
           <LastGiftDate>
@@ -2952,7 +2914,7 @@
       </key>
       <value>
         <Friendship>
-          <Points>453</Points>
+          <Points>451</Points>
           <GiftsThisWeek>0</GiftsThisWeek>
           <GiftsToday>0</GiftsToday>
           <LastGiftDate>
@@ -2974,7 +2936,7 @@
       </key>
       <value>
         <Friendship>
-          <Points>892</Points>
+          <Points>890</Points>
           <GiftsThisWeek>0</GiftsThisWeek>
           <GiftsToday>0</GiftsToday>
           <LastGiftDate>
@@ -2996,7 +2958,7 @@
       </key>
       <value>
         <Friendship>
-          <Points>690</Points>
+          <Points>710</Points>
           <GiftsThisWeek>0</GiftsThisWeek>
           <GiftsToday>0</GiftsToday>
           <LastGiftDate>
@@ -3018,7 +2980,7 @@
       </key>
       <value>
         <Friendship>
-          <Points>1716</Points>
+          <Points>1736</Points>
           <GiftsThisWeek>0</GiftsThisWeek>
           <GiftsToday>0</GiftsToday>
           <LastGiftDate>
@@ -3040,14 +3002,14 @@
       </key>
       <value>
         <Friendship>
-          <Points>666</Points>
-          <GiftsThisWeek>0</GiftsThisWeek>
+          <Points>742</Points>
+          <GiftsThisWeek>1</GiftsThisWeek>
           <GiftsToday>0</GiftsToday>
           <LastGiftDate>
             <Year>1</Year>
-            <DayOfMonth>15</DayOfMonth>
+            <DayOfMonth>28</DayOfMonth>
             <Season>summer</Season>
-            <TotalDays>42</TotalDays>
+            <TotalDays>55</TotalDays>
           </LastGiftDate>
           <TalkedToToday>false</TalkedToToday>
           <ProposalRejected>false</ProposalRejected>
@@ -3062,7 +3024,7 @@
       </key>
       <value>
         <Friendship>
-          <Points>188</Points>
+          <Points>186</Points>
           <GiftsThisWeek>0</GiftsThisWeek>
           <GiftsToday>0</GiftsToday>
           <LastGiftDate>
@@ -3084,7 +3046,7 @@
       </key>
       <value>
         <Friendship>
-          <Points>356</Points>
+          <Points>376</Points>
           <GiftsThisWeek>0</GiftsThisWeek>
           <GiftsToday>0</GiftsToday>
           <LastGiftDate>
@@ -3106,7 +3068,7 @@
       </key>
       <value>
         <Friendship>
-          <Points>1116</Points>
+          <Points>1391</Points>
           <GiftsThisWeek>0</GiftsThisWeek>
           <GiftsToday>0</GiftsToday>
           <LastGiftDate>
@@ -3128,7 +3090,7 @@
       </key>
       <value>
         <Friendship>
-          <Points>512</Points>
+          <Points>510</Points>
           <GiftsThisWeek>0</GiftsThisWeek>
           <GiftsToday>0</GiftsToday>
           <TalkedToToday>false</TalkedToToday>
@@ -3144,14 +3106,14 @@
       </key>
       <value>
         <Friendship>
-          <Points>1675</Points>
-          <GiftsThisWeek>0</GiftsThisWeek>
+          <Points>1740</Points>
+          <GiftsThisWeek>1</GiftsThisWeek>
           <GiftsToday>0</GiftsToday>
           <LastGiftDate>
             <Year>1</Year>
-            <DayOfMonth>22</DayOfMonth>
+            <DayOfMonth>28</DayOfMonth>
             <Season>summer</Season>
-            <TotalDays>49</TotalDays>
+            <TotalDays>55</TotalDays>
           </LastGiftDate>
           <TalkedToToday>false</TalkedToToday>
           <ProposalRejected>false</ProposalRejected>
@@ -3166,7 +3128,7 @@
       </key>
       <value>
         <Friendship>
-          <Points>564</Points>
+          <Points>562</Points>
           <GiftsThisWeek>0</GiftsThisWeek>
           <GiftsToday>0</GiftsToday>
           <LastGiftDate>
@@ -3188,7 +3150,7 @@
       </key>
       <value>
         <Friendship>
-          <Points>904</Points>
+          <Points>902</Points>
           <GiftsThisWeek>0</GiftsThisWeek>
           <GiftsToday>0</GiftsToday>
           <LastGiftDate>
@@ -3210,14 +3172,14 @@
       </key>
       <value>
         <Friendship>
-          <Points>1026</Points>
-          <GiftsThisWeek>0</GiftsThisWeek>
+          <Points>1091</Points>
+          <GiftsThisWeek>1</GiftsThisWeek>
           <GiftsToday>0</GiftsToday>
           <LastGiftDate>
             <Year>1</Year>
-            <DayOfMonth>23</DayOfMonth>
+            <DayOfMonth>28</DayOfMonth>
             <Season>summer</Season>
-            <TotalDays>50</TotalDays>
+            <TotalDays>55</TotalDays>
           </LastGiftDate>
           <TalkedToToday>false</TalkedToToday>
           <ProposalRejected>false</ProposalRejected>
@@ -3232,7 +3194,7 @@
       </key>
       <value>
         <Friendship>
-          <Points>1448</Points>
+          <Points>1446</Points>
           <GiftsThisWeek>0</GiftsThisWeek>
           <GiftsToday>0</GiftsToday>
           <LastGiftDate>
@@ -3254,14 +3216,14 @@
       </key>
       <value>
         <Friendship>
-          <Points>566</Points>
-          <GiftsThisWeek>0</GiftsThisWeek>
+          <Points>631</Points>
+          <GiftsThisWeek>1</GiftsThisWeek>
           <GiftsToday>0</GiftsToday>
           <LastGiftDate>
             <Year>1</Year>
-            <DayOfMonth>19</DayOfMonth>
-            <Season>spring</Season>
-            <TotalDays>18</TotalDays>
+            <DayOfMonth>28</DayOfMonth>
+            <Season>summer</Season>
+            <TotalDays>55</TotalDays>
           </LastGiftDate>
           <TalkedToToday>false</TalkedToToday>
           <ProposalRejected>false</ProposalRejected>
@@ -3276,7 +3238,7 @@
       </key>
       <value>
         <Friendship>
-          <Points>606</Points>
+          <Points>604</Points>
           <GiftsThisWeek>0</GiftsThisWeek>
           <GiftsToday>0</GiftsToday>
           <TalkedToToday>false</TalkedToToday>
@@ -3292,7 +3254,7 @@
       </key>
       <value>
         <Friendship>
-          <Points>1764</Points>
+          <Points>1762</Points>
           <GiftsThisWeek>0</GiftsThisWeek>
           <GiftsToday>0</GiftsToday>
           <LastGiftDate>
@@ -3314,14 +3276,14 @@
       </key>
       <value>
         <Friendship>
-          <Points>1911</Points>
-          <GiftsThisWeek>0</GiftsThisWeek>
+          <Points>2019</Points>
+          <GiftsThisWeek>1</GiftsThisWeek>
           <GiftsToday>0</GiftsToday>
           <LastGiftDate>
             <Year>1</Year>
-            <DayOfMonth>22</DayOfMonth>
+            <DayOfMonth>28</DayOfMonth>
             <Season>summer</Season>
-            <TotalDays>49</TotalDays>
+            <TotalDays>55</TotalDays>
           </LastGiftDate>
           <TalkedToToday>false</TalkedToToday>
           <ProposalRejected>false</ProposalRejected>
@@ -3336,7 +3298,7 @@
       </key>
       <value>
         <Friendship>
-          <Points>1152</Points>
+          <Points>1150</Points>
           <GiftsThisWeek>0</GiftsThisWeek>
           <GiftsToday>0</GiftsToday>
           <LastGiftDate>
@@ -3358,14 +3320,14 @@
       </key>
       <value>
         <Friendship>
-          <Points>1263</Points>
-          <GiftsThisWeek>0</GiftsThisWeek>
+          <Points>1303</Points>
+          <GiftsThisWeek>1</GiftsThisWeek>
           <GiftsToday>0</GiftsToday>
           <LastGiftDate>
             <Year>1</Year>
-            <DayOfMonth>23</DayOfMonth>
+            <DayOfMonth>28</DayOfMonth>
             <Season>summer</Season>
-            <TotalDays>50</TotalDays>
+            <TotalDays>55</TotalDays>
           </LastGiftDate>
           <TalkedToToday>false</TalkedToToday>
           <ProposalRejected>false</ProposalRejected>
@@ -3380,7 +3342,7 @@
       </key>
       <value>
         <Friendship>
-          <Points>1059</Points>
+          <Points>1079</Points>
           <GiftsThisWeek>0</GiftsThisWeek>
           <GiftsToday>0</GiftsToday>
           <LastGiftDate>
@@ -3402,7 +3364,7 @@
       </key>
       <value>
         <Friendship>
-          <Points>561</Points>
+          <Points>571</Points>
           <GiftsThisWeek>0</GiftsThisWeek>
           <GiftsToday>0</GiftsToday>
           <LastGiftDate>
@@ -3424,7 +3386,7 @@
       </key>
       <value>
         <Friendship>
-          <Points>1051</Points>
+          <Points>1049</Points>
           <GiftsThisWeek>0</GiftsThisWeek>
           <GiftsToday>0</GiftsToday>
           <TalkedToToday>false</TalkedToToday>
@@ -3440,9 +3402,15 @@
       </key>
       <value>
         <Friendship>
-          <Points>306</Points>
-          <GiftsThisWeek>0</GiftsThisWeek>
+          <Points>371</Points>
+          <GiftsThisWeek>1</GiftsThisWeek>
           <GiftsToday>0</GiftsToday>
+          <LastGiftDate>
+            <Year>1</Year>
+            <DayOfMonth>28</DayOfMonth>
+            <Season>summer</Season>
+            <TotalDays>55</TotalDays>
+          </LastGiftDate>
           <TalkedToToday>false</TalkedToToday>
           <ProposalRejected>false</ProposalRejected>
           <Status>Friendly</Status>
@@ -3456,7 +3424,7 @@
       </key>
       <value>
         <Friendship>
-          <Points>170</Points>
+          <Points>168</Points>
           <GiftsThisWeek>0</GiftsThisWeek>
           <GiftsToday>0</GiftsToday>
           <TalkedToToday>false</TalkedToToday>
@@ -3483,7 +3451,7 @@
       </value>
     </item>
   </friendshipData>
-  <dayOfMonthForSaveGame>28</dayOfMonthForSaveGame>
+  <dayOfMonthForSaveGame>29</dayOfMonthForSaveGame>
   <seasonForSaveGame>1</seasonForSaveGame>
   <yearForSaveGame>1</yearForSaveGame>
   <overallsColor>0</overallsColor>
@@ -3541,17 +3509,25 @@
         <boolean>true</boolean>
       </value>
     </item>
+    <item>
+      <key>
+        <int>80</int>
+      </key>
+      <value>
+        <boolean>true</boolean>
+      </value>
+    </item>
   </chestConsumedLevels>
-  <saveTime>3368730</saveTime>
+  <saveTime>3369248</saveTime>
   <isCustomized>true</isCustomized>
   <homeLocation>FarmHouse</homeLocation>
   <daysMarried>0</daysMarried>
   <movementMultiplier>0.066</movementMultiplier>
-  <deepestMineLevel>72</deepestMineLevel>
-  <stamina>270</stamina>
-  <money>4640</money>
-  <totalMoneyEarned>63910</totalMoneyEarned>
-  <millisecondsPlayed>67297616</millisecondsPlayed>
+  <deepestMineLevel>82</deepestMineLevel>
+  <stamina>249.75</stamina>
+  <money>5747</money>
+  <totalMoneyEarned>65017</totalMoneyEarned>
+  <millisecondsPlayed>68689408</millisecondsPlayed>
   <hasRustyKey>false</hasRustyKey>
   <hasSkullKey>false</hasSkullKey>
   <canUnderstandDwarves>false</canUnderstandDwarves>
